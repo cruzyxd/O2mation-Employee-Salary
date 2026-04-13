@@ -1,0 +1,25 @@
+{
+  "welcome": "Employee Management",
+  "subtitle": "Manage your team, payroll, and performance.",
+  "stats": {
+    "totalPayroll": "Total Payroll",
+    "sinceLast": "{{value}}% since last payout",
+    "firstPayout": "First payout",
+    "activeEmployees": "Active Employees"
+  },
+  "deductionRateLabel": "Deduction Rate",
+  "sinceLastDeduction": "{{value}}% since last month",
+  "noDeductions": "No deductions this month",
+  "sections": {
+    "teamOverview": "Team Overview"
+  },
+  "viewAll": "View All",
+  "active": "Active",
+  "archived": "Archived",
+  "details": "Details",
+  "netMonthly": "Net Monthly",
+  "employee": {
+    "performanceScore": "Performance Score",
+    "email": "Email"
+  }
+}

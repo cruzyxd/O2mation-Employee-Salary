@@ -1,0 +1,29 @@
+{
+  "title": "الهيكل التنظيمي",
+  "subtitle": "إدارة الهيكل التنظيمي لمؤسستك",
+  "save": "حفظ التغييرات",
+  "newItem": "قسم جديد",
+  "emptyState": {
+    "title": "اسحب الأقسام هنا من اللوحة",
+    "subtitle": "انقر على '+' أو هنا لإضافة قسم"
+  },
+  "actions": {
+    "expandAll": "توسيع الكل",
+    "collapseAll": "طي الكل",
+    "addDepartment": "إضافة قسم",
+    "addSubdepartment": "إضافة قسم فرعي",
+    "delete": "حذف"
+  },
+  "deleteDialog": {
+    "title": "حذف القسم",
+    "description": "هذا القسم يحتوي على أقسام فرعية. كيف تريد المتابعة؟",
+    "cancel": "إلغاء",
+    "keepChildren": "الاحتفاظ بالأقسام الفرعية",
+    "deleteAll": "حذف الكل"
+  },
+  "item": {
+    "department": "قسم",
+    "parentUnit": "وحدة رئيسية",
+    "subUnits": "{{count}} وحدات فرعية"
+  }
+}

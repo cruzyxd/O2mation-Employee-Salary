@@ -1,0 +1,165 @@
+{
+  "tabs": {
+    "run": "التشغيل الحالي",
+    "history": "السجل"
+  },
+  "run": {
+    "closeMonth": "إغلاق الشهر",
+    "backToHistory": "العودة للسجل",
+    "table": {
+      "employee": "الموظف",
+      "basic": "الأساسي",
+      "additions": "الإضافات",
+      "deductions": "الخصومات",
+      "netSalary": "صافي الراتب",
+      "manage": "إدارة"
+    },
+    "employeesCount": "موظف",
+    "totalBasic": "إجمالي الأساسي",
+    "totalNet": "إجمالي الصافي",
+    "globalTotalBasic": "إجمالي الرواتب الأساسية",
+    "globalTotalNet": "إجمالي المدفوعات الصافية",
+    "toast": {
+      "monthClosed": "تم إغلاق الشهر وإنشاء القسائم",
+      "transactionAdded": "تم إضافة المعاملة"
+    },
+    "closeDialog": {
+      "title": "إغلاق الرواتب",
+      "selectMonth": "اختر الشهر للإغلاق",
+      "confirm": "إغلاق الشهر",
+      "cancel": "إلغاء"
+    }
+  },
+  "history": {
+    "empty": "لم يتم العثور على سجل رواتب",
+    "closed": "مغلق",
+    "totalPayout": "إجمالي المدفوعات",
+    "loading": "جاري تحميل السجل...",
+    "printPayslips": "طباعة القسائم",
+    "printReport": "طباعة التقرير",
+    "revertClose": "التراجع عن الإغلاق",
+    "revertDialog": {
+      "title": "التراجع عن تشغيل الرواتب؟",
+      "description": "سيؤدي هذا إلى حذف تشغيل الرواتب لفترة {{period}} وإعادة جميع المعاملات المرتبطة إلى حالة مفتوحة. لا يمكن التراجع عن هذا الإجراء.",
+      "confirm": "نعم، تراجع",
+      "cancel": "إلغاء"
+    },
+    "toast": {
+      "reverted": "تم التراجع عن تشغيل الرواتب بنجاح.",
+      "revertError": "فشل التراجع عن تشغيل الرواتب.",
+      "deleted": "تم حذف تشغيل الرواتب نهائياً.",
+      "deleteError": "فشل حذف تشغيل الرواتب."
+    },
+    "deletePayroll": "حذف الرواتب",
+    "deleteDialog": {
+      "title": "حذف تشغيل الرواتب؟",
+      "description": "سيؤدي هذا إلى حذف تشغيل الرواتب لفترة {{period}} وجميع المعاملات المرتبطة نهائياً. لن يتم استعادة أي شيء. لا يمكن التراجع عن هذا الإجراء.",
+      "confirm": "حذف نهائياً",
+      "cancel": "إلغاء"
+    }
+  },
+  "dialog": {
+    "title": "إضافة معاملة لـ {{name}}",
+    "titleBulk": "إضافة معاملة لـ {{count}} موظفين",
+    "category": "الفئة",
+    "unit": "الوحدة",
+    "value": "القيمة ({{unit}})",
+    "reason": "السبب",
+    "reasonPlaceholder": "مثال: تأخير، غياب...",
+    "selectType": "اختر نوع المعاملة",
+    "entryAmount": "القيمة المدخلة",
+    "preview": {
+      "increase": "زيادة بمقدار {{amount}}",
+      "decrease": "نقصان بمقدار {{amount}}",
+      "baseRate": "بناءً على سعر الساعة {{rate}}",
+      "bulk": "{{action}} {{amount}} {{unit}} لكل موظف"
+    },
+    "cancel": "إلغاء",
+    "save": "حفظ المعاملة",
+    "activeTransactions": "السجل النشط",
+    "noTransactions": "لا توجد معاملات في الدورة الحالية",
+    "toast": {
+      "added": "تم إضافة المعاملة",
+      "bulkAdded": "تم إضافة المعاملة لـ {{count}} موظفين",
+      "removed": "تمت إزالة المعاملة"
+    },
+    "actions": {
+      "delete": "حذف"
+    }
+  },
+  "preview": {
+    "currentSalary": "الشهر الحالي",
+    "baseSalary": "الراتب الأساسي",
+    "projectedNet": "الصافي المتوقع",
+    "afterDeductions": "بعد كل التسويات",
+    "totalAdditions": "إجمالي الإضافات",
+    "totalDeductions": "إجمالي الخصومات",
+    "hourlyRate": "سعر الساعة",
+    "bulkSummary": "إضافة {{category}} لـ {{count}} موظفين",
+    "impactDescription": "احتساب {{amount}} {{unit}} من {{category}}"
+  },
+  "categories": {
+    "additions": "الإضافات",
+    "deductions": "الخصومات",
+    "overtime": "وقت إضافي",
+    "bonus": "مكافأة",
+    "absence": "غياب",
+    "lateness": "تأخير",
+    "advance": "سلفة (قرض)",
+    "deduction": "خصم"
+  },
+  "units": {
+    "hours": "ساعات",
+    "days": "أيام",
+    "cash": "",
+    "perHour": "/ساعة"
+  },
+  "payslip": {
+    "title": "قسيمة الراتب",
+    "employeeName": "اسم الموظف",
+    "period": "الفترة",
+    "basicSalary": "الراتب الأساسي",
+    "additions": "الإضافات",
+    "deductions": "الخصومات",
+    "deductionsList": "الخصومات",
+    "netSalary": "صافي الراتب",
+    "breakdown": "التفصيل المالي",
+    "overtime": "وقت إضافي",
+    "bonus": "مكافأة",
+    "deduction": "خصم",
+    "advance": "سلفة (قرض)",
+    "totalAdditions": "إجمالي الإضافات",
+    "totalDeductions": "إجمالي الخصومات",
+    "employeeSignature": "توقيع الموظف",
+    "managerSignature": "توقيع المدير",
+    "printDate": "تاريخ الطباعة"
+  },
+  "report": {
+    "title": "تقرير الرواتب",
+    "employeeName": "الاسم",
+    "jobTitle": "الوظيفة",
+    "additions": "الاضافي / حافز",
+    "deductions": "الخصم",
+    "loans": "سلف",
+    "grossSalary": "اجمالي الراتب",
+    "netSalary": "الصافي",
+    "signature": "التوقيع",
+    "subtotal": "الاجمالي الفرعي",
+    "parentTotal": "اجمالي الادارة",
+    "grandTotal": "الاجمالي العام"
+  },
+  "months": {
+    "01": "يناير",
+    "02": "فبراير",
+    "03": "مارس",
+    "04": "أبريل",
+    "05": "مايو",
+    "06": "يونيو",
+    "07": "يوليو",
+    "08": "أغسطس",
+    "09": "سبتمبر",
+    "10": "أكتوبر",
+    "11": "نوفمبر",
+    "12": "ديسمبر"
+  }
+}

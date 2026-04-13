@@ -1,0 +1,25 @@
+{
+  "welcome": "إدارة الموظفين",
+  "subtitle": "إدارة فريقك والرواتب والأداء.",
+  "stats": {
+    "totalPayroll": "إجمالي الرواتب",
+    "sinceLast": "{{value}}% منذ آخر دفعة",
+    "firstPayout": "أول دفعة",
+    "activeEmployees": "الموظفون النشطون"
+  },
+  "deductionRateLabel": "نسبة الاستقطاعات",
+  "sinceLastDeduction": "{{value}}% منذ الشهر الماضي",
+  "noDeductions": "لا توجد استقطاعات هذا الشهر",
+  "sections": {
+    "teamOverview": "نظرة عامة على الفريق"
+  },
+  "viewAll": "عرض الكل",
+  "active": "نشط",
+  "archived": "مؤرشف",
+  "details": "التفاصيل",
+  "netMonthly": "الصافي الشهري",
+  "employee": {
+    "performanceScore": "نقاط الأداء",
+    "email": "البريد الإلكتروني"
+  }
+}

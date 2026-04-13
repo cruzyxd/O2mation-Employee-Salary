@@ -1,0 +1,15 @@
+{
+  "app": {
+    "name": "O2mation",
+    "subtitle": "Payroll"
+  },
+  "section": {
+    "main": "Main Menu"
+  },
+  "items": {
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "payroll": "Payroll",
+    "settings": "Settings"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "actions": {
+    "addEmployee": "Add Employee",
+    "edit": "Edit",
+    "delete": "Delete",
+    "restore": "Restore",
+    "archive": "Archive",
+    "create": "Create Employee",
+    "update": "Update Employee",
+    "selectDepartment": "Select Department",
+    "searchPlaceholder": "Search employees...",
+    "filterDept": "Filter Dept"
+  },
+  "drawer": {
+    "title": "Add New Employee",
+    "editTitle": "Edit Employee"
+  },
+  "tabs": {
+    "active": "Active Employees",
+    "archived": "Archived",
+    "other": "Other"
+  },
+  "table": {
+    "name": "Name",
+    "department": "Department",
+    "grade": "Grade",
+    "salary": "Salary",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "bulk": {
+    "selected": "{{count}} Selected",
+    "addTransaction": "Add Transaction",
+    "clear": "Clear Selection"
+  },
+  "form": {
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "department": "Department",
+    "workHours": "Work Hours",
+    "nationalId": "ID (National ID)",
+    "monthlySalary": "Monthly Salary",
+    "jobTitle": "Job Title",
+    "scores": {
+      "title": "Grading Scores (0-100)",
+      "performance": "Performance",
+      "dedication": "Dedication",
+      "responsibility": "Responsibility"
+    }
+  },
+  "toast": {
+    "archived": "Employee archived",
+    "restored": "Employee restored",
+    "created": "Employee created",
+    "updated": "Employee updated"
+  },
+  "status": {
+    "active": "Active",
+    "archived": "Archived"
+  },
+  "grades": {
+    "excellent": "Excellent",
+    "good": "Good",
+    "bad": "Bad"
+  },
+  "departments": {
+    "engineering": "Engineering",
+    "finance": "Finance",
+    "humanResources": "Human Resources",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "qualityAssurance": "Quality Assurance",
+    "accounting": "Accounting",
+    "auditing": "Auditing",
+    "recruitment": "Recruitment",
+    "operations": "Operations"
+  },
+  "empty": {
+    "noMatch": "No employees found matching your criteria."
+  }
+}

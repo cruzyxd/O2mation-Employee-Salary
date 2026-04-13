@@ -1,0 +1,165 @@
+{
+  "tabs": {
+    "run": "Current Run",
+    "history": "History"
+  },
+  "run": {
+    "closeMonth": "Close Month",
+    "backToHistory": "Back to History",
+    "table": {
+      "employee": "Employee",
+      "basic": "Basic",
+      "additions": "Additions",
+      "deductions": "Deductions",
+      "netSalary": "Net Salary",
+      "manage": "Manage"
+    },
+    "employeesCount": "Employees",
+    "totalBasic": "Total Basic",
+    "totalNet": "Total Net",
+    "globalTotalBasic": "Total Basic Payroll",
+    "globalTotalNet": "Total Net Payout",
+    "toast": {
+      "monthClosed": "Month Closed & Slips Generated",
+      "transactionAdded": "Transaction added"
+    },
+    "closeDialog": {
+      "title": "Close Payroll",
+      "selectMonth": "Select the month to close",
+      "confirm": "Close Month",
+      "cancel": "Cancel"
+    }
+  },
+  "history": {
+    "empty": "No payroll history yet.",
+    "closed": "Closed",
+    "totalPayout": "Total Payout",
+    "loading": "Loading history...",
+    "printPayslips": "Print Payslips",
+    "printReport": "Print Report",
+    "revertClose": "Revert Close",
+    "revertDialog": {
+      "title": "Revert Payroll Run?",
+      "description": "This will permanently delete the payroll run for {{period}} and restore all associated transactions to an open state. This action cannot be undone.",
+      "confirm": "Yes, Revert",
+      "cancel": "Cancel"
+    },
+    "toast": {
+      "reverted": "Payroll run reverted successfully.",
+      "revertError": "Failed to revert payroll run.",
+      "deleted": "Payroll run permanently deleted.",
+      "deleteError": "Failed to delete payroll run."
+    },
+    "deletePayroll": "Delete Payroll",
+    "deleteDialog": {
+      "title": "Delete Payroll Run?",
+      "description": "This will permanently delete the payroll run for {{period}} and all associated transactions. Nothing will be restored. This action cannot be undone.",
+      "confirm": "Delete Permanently",
+      "cancel": "Cancel"
+    }
+  },
+  "dialog": {
+    "title": "Add Transaction for {{name}}",
+    "titleBulk": "Add Transaction to {{count}} Employees",
+    "category": "Category",
+    "unit": "Unit",
+    "value": "Value ({{unit}})",
+    "reason": "Reason",
+    "reasonPlaceholder": "e.g. Late arrival",
+    "selectType": "Select Transaction Type",
+    "entryAmount": "Entry Amount",
+    "preview": {
+      "increase": "Increase by {{amount}}",
+      "decrease": "Decrease by {{amount}}",
+      "baseRate": "Based on hourly rate of {{rate}}",
+      "bulk": "{{action}} {{amount}} {{unit}} for each employee"
+    },
+    "cancel": "Cancel",
+    "save": "Save Transaction",
+    "activeTransactions": "Active History",
+    "noTransactions": "No transactions in current cycle",
+    "toast": {
+      "added": "Transaction added",
+      "bulkAdded": "Added transaction to {{count}} employees",
+      "removed": "Transaction removed"
+    },
+    "actions": {
+      "delete": "Delete"
+    }
+  },
+  "preview": {
+    "currentSalary": "Current Month",
+    "baseSalary": "Original Package",
+    "projectedNet": "Projected Net",
+    "afterDeductions": "After all adjustments",
+    "totalAdditions": "Current Additions",
+    "totalDeductions": "Current Deductions",
+    "hourlyRate": "Hourly Rate",
+    "bulkSummary": "Adding {{category}} to {{count}} employees",
+    "impactDescription": "Calculating {{amount}} {{unit}} of {{category}}"
+  },
+  "categories": {
+    "additions": "Additions",
+    "deductions": "Deductions",
+    "overtime": "Overtime",
+    "bonus": "Bonus",
+    "absence": "Absence",
+    "lateness": "Lateness",
+    "advance": "Advance (Loan)",
+    "deduction": "Deduction"
+  },
+  "units": {
+    "hours": "Hours",
+    "days": "Days",
+    "cash": "",
+    "perHour": "/hr"
+  },
+  "payslip": {
+    "title": "Payslip",
+    "employeeName": "Employee Name",
+    "period": "Period",
+    "basicSalary": "Basic Salary",
+    "additions": "Additions",
+    "deductions": "Deductions",
+    "deductionsList": "Deductions",
+    "netSalary": "Net Salary",
+    "breakdown": "Financial Breakdown",
+    "overtime": "Overtime",
+    "bonus": "Bonus",
+    "deduction": "Deduction",
+    "advance": "Advance (Loan)",
+    "totalAdditions": "Total Additions",
+    "totalDeductions": "Total Deductions",
+    "employeeSignature": "Employee Signature",
+    "managerSignature": "Manager Signature",
+    "printDate": "Print Date"
+  },
+  "report": {
+    "title": "Payroll Report",
+    "employeeName": "Name",
+    "jobTitle": "Job Title",
+    "additions": "Additions",
+    "deductions": "Deductions",
+    "loans": "Loans",
+    "grossSalary": "Gross Salary",
+    "netSalary": "Net Salary",
+    "signature": "Signature",
+    "subtotal": "Subtotal",
+    "parentTotal": "Department Total",
+    "grandTotal": "Grand Total"
+  },
+  "months": {
+    "01": "January",
+    "02": "February",
+    "03": "March",
+    "04": "April",
+    "05": "May",
+    "06": "June",
+    "07": "July",
+    "08": "August",
+    "09": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  }
+}
